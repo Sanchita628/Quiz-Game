@@ -57,13 +57,13 @@ Correct!
 
 Your total score: 4 / 5
 Good job! 🙂
-## 📁 Project Structure
-cpp
-Copy code
+📁 Project Structure
 quiz-game/
  ├── quiz.c        // Main program source code
  └── README.md     // Documentation
-##🚀 Future Improvements
+
+🚀 Future Improvements
+
 Add more questions
 
 Make a menu (Start / Instructions / Exit)
@@ -75,5 +75,6 @@ Randomize question order
 Read questions from a file
 
 🤝 Contributing
+
 Feel free to improve this project!
 Pull requests and suggestions are welcome.
