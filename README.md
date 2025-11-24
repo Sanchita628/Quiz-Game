@@ -1,80 +1,109 @@
-# Quiz-Game
-# 🎮 Quiz Game (C Language)
+# Quiz Game in C 🎮
 
-The **Quiz Game** is a simple and interactive console-based application written in C.  
-It asks multiple-choice questions, takes user input, checks answers, calculates the score, and displays a final evaluation.  
-This project is perfect for beginners learning C programming.
+## Introduction ✨
 
----
+This project is a fully interactive, command-line based Quiz Game
+written in the C programming language. It presents users with five
+multiple-choice questions, evaluates their answers in real time, and
+provides a polished end-of-quiz performance summary.
 
-## ✨ Features
+------------------------------------------------------------------------
 
-- 5 multiple-choice questions  
-- Accepts A/B/C/D (uppercase or lowercase)  
-- Instant feedback: Correct / Wrong  
-- Score calculation  
-- Final rating based on performance  
-- Clean and beginner-friendly code  
+## Key Features ⭐
 
----
+-   **Case-insensitive answer handling** (accepts both uppercase and
+    lowercase inputs)
+-   **Instant correctness feedback** after each question
+-   **Clean UI with structured formatting**
+-   **Score tracking and performance evaluation**
+-   Simple, readable, and modular code design
 
-## 📂 How It Works
+------------------------------------------------------------------------
 
-The game uses a function called `askQuestion()`:
+## Project Structure 📂
 
-- Displays a question and four options  
-- Takes the user's answer  
-- Checks correctness (supports lowercase)  
-- Increases score if correct  
+    ├── quizgame.c      # Main source code
+    └── README.md       # Project documentation
 
-This avoids repeating code and keeps the program organized.
+------------------------------------------------------------------------
 
----
+## How the Program Works 🛠️
 
-## ▶️ How to Run the Program
+### 1. `askQuestion()` Function
 
-### 1. Compile the code:
-```bash
-gcc quiz.c -o quiz
-2. Run the executable:
-bash
-Copy code
-./quiz
-📸 Example Output
-markdown
-Copy code
-=====================================
-         WELCOME TO QUIZ GAME        
-=====================================
+Responsible for: - Displaying questions and options - Taking user
+input - Validating correctness - Updating the score using pointer
+reference
 
-1. What is the capital of France?
-A. Berlin
-B. Madrid
-C. Paris
-D. Rome
-Your answer: C
-Correct!
+### 2. `main()` Function
 
-Your total score: 4 / 5
-Good job! 🙂
-📁 Project Structure
-quiz-game/
- ├── quiz.c        // Main program source code
- └── README.md     // Documentation
+-   Initializes the score counter
+-   Calls `askQuestion()` for all quiz items
+-   Displays the final scorecard
+-   Shows an evaluation message based on performance
 
-🚀 Future Improvements
+------------------------------------------------------------------------
 
-Add more questions
+## Compilation 🧱
 
-Make a menu (Start / Instructions / Exit)
+``` bash
+gcc quizgame.c -o quizgame
+```
 
-Add color-coded terminal text
+------------------------------------------------------------------------
 
-Randomize question order
+## Execution ▶️
 
-Read questions from a file
+``` bash
+./quizgame
+```
 
-🤝 Contributing
+------------------------------------------------------------------------
 
-Feel free to improve this project!
-Pull requests and suggestions are welcome.
+## Sample Console Output 📺
+
+    =====================================
+             WELCOME TO QUIZ GAME        
+    =====================================
+    1. What is the capital of France?
+    A. Berlin
+    B. Madrid
+    C. Paris
+    D. Rome
+    Your answer: C
+    Correct!
+
+    ...
+    =====================================
+                  QUIZ OVER
+    =====================================
+    Your total score: 4 / 5
+    Good job!
+
+------------------------------------------------------------------------
+
+## Customization Guide 🎨
+
+You can extend or modify the game by: - Adding more questions via
+additional `askQuestion()` calls - Introducing hints, difficulty levels,
+or time limits - Splitting questions into separate modules or files -
+Adding scoring logic for negative marking or bonus points
+
+------------------------------------------------------------------------
+
+## Requirements 📌
+
+-   C compiler (GCC recommended)
+-   Works on Windows, Linux, and macOS
+
+------------------------------------------------------------------------
+
+## Author 👤
+
+Developed as a structured programming practice project.
+
+------------------------------------------------------------------------
+
+## License 📜
+
+This project is free to use for educational and learning purposes.
