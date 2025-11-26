@@ -110,4 +110,4 @@ This project is free to use for educational and learning purposes.
 ## OUTPUT SCREENSHOT
 ![image alt](https://github.com/Sanchita628/Quiz-Game/blob/39f5c560474b64035e794ab6beb21fca7495e800/WhatsApp%20Image%202025-11-26%20at%2012.34.15%20PM.jpeg)
 ![image alt](https://github.com/Sanchita628/Quiz-Game/blob/6214cbc1d329404a3ee2e409d1885151c94076da/WhatsApp%20Image%202025-11-26%20at%2012.34.22%20PM.jpeg)
-!{image alt}(image__url)
+![image alt](https://github.com/Sanchita628/Quiz-Game/blob/7a5d3ecf9f876d8a314fb430161b4ac129aa3c4b/WhatsApp%20Image%202025-11-26%20at%2012.34.35%20PM.jpeg)
