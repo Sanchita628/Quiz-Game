@@ -108,6 +108,6 @@ Developed as a structured programming practice project.
 
 This project is free to use for educational and learning purposes.
 ## OUTPUT SCREENSHOT
-!{image alt}(image__url)
+!{image alt}(https://github.com/Sanchita628/Quiz-Game/blob/39f5c560474b64035e794ab6beb21fca7495e800/WhatsApp%20Image%202025-11-26%20at%2012.34.15%20PM.jpeg)
 !{image alt}(image__url)
 !{image alt}(image__url)
