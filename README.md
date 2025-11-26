@@ -107,3 +107,7 @@ Developed as a structured programming practice project.
 ## License 📜
 
 This project is free to use for educational and learning purposes.
+## OUTPUT SCREENSHOT
+!{image alt}(image__url)
+!{image alt}(image__url)
+!{image alt}(image__url)
